@@ -1,0 +1,21 @@
+{
+    "name":"aplicación para gestionar tareas",
+    "short_name":"Tareas PWA",
+    "start_url": "/practica_lunes/",
+    "display":"standalone",
+    "background_color":"#ffffff",
+    "theme_color":"#000000",
+    "description":"Una PWA para gestionar tus tareas diarias de manera eficiente.",
+    "icons":[
+        {
+            "src":"images/icons/tareas1.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+        {
+            "src":"images/icons/tareas1.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

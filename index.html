@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="apple-touch-icon" href="images/icons/tareas1.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="images/icons/tareas2.png"
+    />
+    <title>pouchdb</title>
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <h1>Gestión de tareas</h1>
+    <!--Forms-->
+    <fieldset>
+      <legend>Nueva tarea</legend>
+      <p>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Escribe el nombre de la tarea"
+        />
+      </p>
+      <p>
+        <label for="fecha">Fecha:</label>
+        <input
+          type="date"
+          id="fecha"
+          placeholder="Escribe el nombre de la tarea"
+        />
+      </p>
+      <p>
+        <button type="button" id="btnAdd">Agregar nueva tarea</button>
+      </p>
+    </fieldset>
+
+    <button type="button" id="btnList">Listar tareas</button>
+    <div id="lista"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@9.0.0/dist/pouchdb.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
